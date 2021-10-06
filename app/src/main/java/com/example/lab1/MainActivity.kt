@@ -1,5 +1,6 @@
 package com.example.lab1
 
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -11,6 +12,25 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val configuration: Configuration = resources.configuration
+        if (configuration.orientation === Configuration.ORIENTATION_LANDSCAPE) {
+            btn_square.setOnClickListener { setTextFields("^2") }
+            btn_degree.setOnClickListener { setTextFields("^") }
+            btn_root.setOnClickListener { setTextFields("sqrt(") }
+            btn_sin.setOnClickListener { setTextFields("sin(") }
+            btn_cos.setOnClickListener { setTextFields("cos(") }
+            btn_tan.setOnClickListener { setTextFields("tan(") }
+            btn_sinh.setOnClickListener { setTextFields("sinh(") }
+            btn_cosh.setOnClickListener { setTextFields("cosh(") }
+            btn_tanh.setOnClickListener { setTextFields("tanh(") }
+            btn_ln.setOnClickListener { setTextFields("log(") }
+            btn_log.setOnClickListener { setTextFields("log10(") }
+            btn_degree_exp.setOnClickListener { setTextFields("e^(") }
+            btn_abs.setOnClickListener { setTextFields("abs(") }
+            btn_pi.setOnClickListener { setTextFields("π") }
+            btn_exp.setOnClickListener { setTextFields("e") }
+        }
 
         btn_0.setOnClickListener { setTextFields("0") }
         btn_1.setOnClickListener { setTextFields("1") }
@@ -31,9 +51,7 @@ class MainActivity : AppCompatActivity() {
         btn_dot.setOnClickListener { setTextFields(".") }
 
         btn_C.setOnClickListener { clear() }
-
         btn_back.setOnClickListener { back() }
-
         btn_equal.setOnClickListener { equal() }
     }
 
