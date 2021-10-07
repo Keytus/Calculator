@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Extended">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_square"
+                android:text="x^2"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_degree"
+                android:text="x^y"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_root"
+                android:text="√"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_sin"
+                android:text="sin"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_cos"
+                android:text="cos"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_tan"
+                android:text="tan"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_sinh"
+                android:text="sinh"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_cosh"
+                android:text="cosh"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_tanh"
+                android:text="tanh"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_ln"
+                android:text="ln"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_log"
+                android:text="log"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_degree_exp"
+                android:text="e^x"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_abs"
+                android:text="|x|"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_pi"
+                android:text="π"
+                />
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_exp"
+                android:text="e"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

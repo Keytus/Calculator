@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=sHTbC3X4Dc4&t=3s
+https://startandroid.ru/ru/uroki/vse-uroki-spiskom/133-urok-70-onsaveinstancestate-sohranenie-dannyh-activity-pri-povorote-ekrana.html
+https://www.fandroid.info/podderzhka-razlichnyh-yazykov/
+http://developer.alexanderklimov.ru/android/fragment.php
+http://developer.alexanderklimov.ru/android/fragment2.php
+https://startandroid.ru/ru/uroki/vse-uroki-spiskom/176-urok-106-android-3-fragments-vzaimodejstvie-s-activity.html
